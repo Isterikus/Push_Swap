@@ -45,9 +45,11 @@ v - displays arrays after every command;
 
 Usage example:
 $>./push_swap 3 5 4 1
-or
+
 $>ARG="(array of integers)"; ./push_swap $ARG | ./checker -vc $ARG
 
 Also i submit randomizer executable(rand) which create array of unique integers.
+
 ./rand (from) (to) (amount)
+
 $>./rand 1 500 100
